@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Capture Image and Location</title>
+</head>
+<body>
+    <h1>Capture Image and Location</h1>
+    <form action="/submit" method="post" enctype="multipart/form-data">
+        <label for="image">Select image:</label>
+        <input type="file" id="image" name="image" accept="image/*" required>
+        <br>
+        <label for="location">Enter your location:</label>
+        <input type="text" id="location" name="location" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
